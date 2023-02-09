@@ -10,6 +10,7 @@ class FinalMethod{
 }
 
 //The final class can not be inherited
+
 //public class Final extends FinalMethod2 {
 public class Final extends FinalMethod {
     final int num = 3;
