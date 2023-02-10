@@ -65,7 +65,9 @@ public class List {
         while (itr.hasNext()) {
             System.out.print(itr.next() + " ");
         }
+
         System.out.println();
+
         System.out.println(stack.empty() + " " + stack.search("E-2") + " " + stack.peek() + " " + stack.size());
     }
 }
