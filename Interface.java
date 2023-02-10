@@ -19,7 +19,7 @@ class Child5 implements interface1{
         System.out.println("Child5 method running successfully");
     }
 }
-public class Interface {
+public class Interface extends Child3 {
     public static void main(String[] args) {
         interface1 in = new Child3();
         in.show();
